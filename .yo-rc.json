@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitHubOrganization": "jainam1997",
+    "baseName": "jhipster",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.4",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "162318e679dbb8aef97732a335bd0add5d56e8be",
+    "jhiPrefix": "jhi"
+  }
+}
